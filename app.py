@@ -10,6 +10,7 @@ import plotly.express as px
 
 st.title("mevalarni klassifikatsiya qiluvchi model")
 st.write("yuriqnoma: olma , banan,tort")
+st.write("Agar boshqa turdagi rasm kiritsangiz sizga ogohlantirish beriladi")
 
 #rasmni yuklash uchun joy
 file = st.file_uploader("Rasm yuklash",type=["png","jpeg","gif","svg"])
